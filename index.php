@@ -16,11 +16,11 @@
 <div class="container indexdos" style="margin-top: 70px;margin-bottom: 70px;">
 	<div class="row">
 	<section class="col-md-6 col-xs-12">
-		<img src="asset/ilus2.png">
+		<img src="asset/ilus2.png" class="img-fluid">
 	</section>
 	<div class="col-md-6 col-xs-12 seccion-dos">
 		<h1>Sabemos que gestionar un consultorio <span style="color: #fe6068;font-weight: 700;"> no es fácil.</span></h1>
-		<ul class="itemsul">
+		<ul class="itemsul" style="padding-top: 30px;">
 			<li>Muchos pacientes el mismo día.</li>
 			<li>Cancelaciones de citas.</li>
 			<li>Pacientes enojados por pérdidas de turno.</li>
@@ -184,8 +184,3 @@
 </div>	
 
 <?php include "php/footer.php"; ?>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-</body>
-</html>
