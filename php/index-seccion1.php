@@ -17,7 +17,7 @@
 					<p style="text-align: center;" >Ingresa ahora y haz una prueba <span>gratuita</span></p>
 				</div>
 			</div>
-			<img class="col-xs-12 img-responsive" src="asset/group-4.png" alt="">
+			<img class="col-xs-12 img-responsive w-100" src="asset/group-4.png" alt="">
 		</section>
 	</div>
 </div>

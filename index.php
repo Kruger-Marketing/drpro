@@ -125,9 +125,12 @@
 </div>
 
 <div class="container-fluid indexcinco" style="padding: 0px;">
-	<div class="row">
-		<img src="asset/apple-macbook-pro-15@3x.png" class="col-md-6 img-fluid" style="padding: 0px;" alt="">
-		<div class="col-md-6">
+	<div class="row m-0">
+		<div class="col-12 col-sm-6 d-flex p-0 m-0 justify-content-start align-items-center">
+			<img src="asset/apple-macbook-pro-15@3x.png" width="100%" height="auto"  alt="">
+		</div>
+		
+		<div class="col-md-6 p-0 m-0">
 			<h1>Comienza ahora <br> <span style="font-weight: 700;">a disfrutar de:</span></h1>
 			<ul class="itemsul" style="padding: 0px;">
 				<li><img src="asset/check.png" class="col-md-1" alt="">Muchos pacientes el mismo día.</li>
