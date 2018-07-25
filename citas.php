@@ -3,25 +3,26 @@
 ?>
 
 <!-- Seccion 1-->
-<div class="container-fluid seccion-uno">
+<div class="container-fluid seccion-uno citas-bg">
 	<?php 
 		include "php/menu.php";
 	 ?>
 	 <div class="container">
 		<div class="row " style="margin-top: 70px;">
-			<section class="col-md-6 col-xs-12 sec1-cont">
-				<h1 class=""> <span style="font-weight: 700;">Gestiona</span> tu consultorio de manera fácil y segura.</h1>
-				<h2 class="">Doctopro te ayuda a organiar tu agenda, historias clínicas desde cualquier lugar o dispositivo.</h2>
+			<section class="col-md-12 col-xs-12 sec1-cont">
+				<h1 class="text-center"> Encuentra el doctor perfecto para ti</h1>
+				<h2 class="text-center">Buscar al mejor doctor para tí. Sólo ingresa la especialidad y el lugar, o si ya tienes un doctor, buscalo y reserva tu cita.</h2>
 			</section>
 
-			<div class="col-md-6" style="padding-bottom: 200px;">
+			<div class="col-md-12 sec1-cont" style="padding-bottom: 200px;">
+				<h2><span style="color: #1fe4cb;">Buscar por especialidad</span> | Buscar por doctor</h2>
+				
 				<form action="" class="formulario row d-flex flew-wrap justify-content-center align-items-center">
-							<input type="text" class="col-md-5 mx-1 col-xs-12" placeholder="Nombre">
-							<input type="text" class="col-md-5 mx-1 col-xs-12" placeholder="Apellido">
-							<input type="text" class="col-md-5 mx-1 col-xs-12" placeholder="Teléfono">
-							<input type="text" class="col-md-5 mx-1 col-xs-12" placeholder="Ciudad">
-							<input type="text" class="col-md-10 mx-1 col-xs-12" placeholder="Email">
-							<button class="col-md-5 ">REGISTRARME</button>
+							<div class="triangulo-equilatero-bottom"></div>
+							<input type="text" class="col-md-4 col-xs-12 left" placeholder="Especialidad">
+							<input type="text" class="col-md-4 mx-0 col-xs-12 center" placeholder="Ciudad">
+
+							<button class="col-md-4 right ">BUSCAR</button>
 					</form>
 			</div>
 		</div>
@@ -34,31 +35,42 @@
 <div class="container-fluid indextres" >
 	<div class="container">
 	<div class="row">
-		<div class="col-md-12 seccion-t">
-			<h1 class="col-xs-12 text-center">Doctopro es <span>más simple </span>de lo que piensas.</h1>
-			<h2 class="col-xs-12" style="">Estamos seguros de que te ayudaremos con tus gestiones como doctor, hemos creado todas las herramientas necesarias para ayudarte y optimizar tus citas médicas</h2>
+		<div class="col-md-12 seccion-t d-flex justify-content-center flex-wrap">
+			<h1 class="col-12  text-center">Tienes muchas razones para usar <span>DoctoPro</span></h1>
+			<h2 class="col-12" style="">Estamos seguros de que te ayudaremos con tus gestiones como doctor, hemos creado todas las herramientas necesarias para ayudarte y optimizar tus citas médicas</h2>
+			<div class="col-md-10 col-12 d-flex flex-wrap">
+				<div class="col-md-6 col-12">
+					<h1 class="text-center" style="color: #35d1cd; font-size: 80px; font-weight: bold; ">+ 150</h1>
+					<h2 class="text-center" style="color: #35d1cd; font-weight: bold;">Doctores</h2>
+				</div>
+				<div class="col-md-6 col-12">
+					<h1 class="text-center" style="color: #595ce7; font-size: 80px; font-weight: bold; ">+ 30.000</h1>
+					<h2 class="text-center" style="color: #595ce7; font-weight: bold;">Citas en Doctopro</h2>
+				</div>
+			</div>
+			
 		</div>
 	</div>
 	<div class="row bloques justify-content-md-center">
 			<div class="col-md-4 col-xs-12 blo" >
 				<div class="col-xs-12" style="background: white; box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);">
-					<img src="asset/cooperation@3x.png" style="padding-top: 40px;" class="img-fluid col-md-4  col-xs-4" alt="">
-					<h1 class="col-xs-12 text-center">Gestiona tus citas.</h1>
-					<p style="text-align: center;">Ahora puedes creas y agendar tus citas. Sincronizalas desde cualquier dispositivo, envía recordatorios a tus pacientes y mantente al día. <br>  <br>  <br></p>
+					<img src="asset/development.png" style="padding-top: 40px;" class="img-fluid col-md-4  col-xs-4" alt="">
+					<h1 class="col-xs-12 text-center">DATOS ENCRIPTADOS</h1>
+					<p class="p-3 pb-5 text-center"> Tus datos estarán siempre seguros en la nube, nosotros cuidamos tu privacidad. <br>  <br>  <br></p>
 				</div>
 			</div>
 			<div class="col-md-4 col-xs-12  blo">
 				<div class="col-xs-12" style="background: white; box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);">
-					<img src="asset/to-do@3x.png" style="padding-top: 40px;" class="img-fluid col-md-4  col-xs-4" alt="">
-					<h1 class="col-xs-12 text-center">Fichas clinicas personalizables.</h1>
-					<p style="text-align: center;">Fichas clinicas de tus pacientes personalizables según tu especialidad y tus necesidades. Impresion de Recetas, Solicitudes de examenes, Images y archivos. <br>  <br></p>
+					<img src="asset/terminal.png" style="padding-top: 40px;" class="img-fluid col-md-4  col-xs-4" alt="">
+					<h1 class="col-xs-12 text-center">MULTIDISPOSITIVOS Y MULTIPLATAFORMA</h1>
+					<p class="p-3 pb-5 text-center">Puedes desde cualquier dispositivo o desde cualquier móvil solo con tu cuenta.</p>
 				</div>
 			</div>
 			<div class="col-md-4 col-xs-12  blo">
 				<div class="col-xs-12" style="background: white; box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);">
-					<img src="asset/floder@3x.png" style="padding-top: 40px;" class="img-fluid col-md-3  col-xs-4" alt="">
-					<h1 class="col-xs-12 text-center">Contacto directo con tu paciente</h1>
-					<p style="text-align: center;">Ten un contacto directo con tu paciente con el envíos de emails, promociones, recordatorios de citas futuras. <br> <br>  <br>  <br></p>
+					<img src="asset/to-do.png" style="padding-top: 40px;" class="img-fluid col-md-3  col-xs-4" alt="">
+					<h1 class="col-xs-12 text-center">CITAS FÁCILES Y RÁPIDAS</h1>
+					<p class="p-3 pb-5 text-center">Realiza citas de una manera rápida con tus doctores de confianza y nunca deje de estar respaldado.</p>
 				</div>
 			</div>
 			<button class="cta col-md-6 col-xs-10 " style="margin-top: 40px;" >

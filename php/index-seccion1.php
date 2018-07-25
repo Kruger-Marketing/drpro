@@ -3,14 +3,14 @@
 		<section class="col-md-6 col-xs-12 sec1-cont">
 			<h1 class=""> <span style="font-weight: 700;">Gestiona</span> tu consultorio de manera fácil y segura.</h1>
 			<h2 class="">Doctopro te ayuda a organiar tu agenda, historias clínicas desde cualquier lugar o dispositivo.</h2>
-			<div class="col-md-4 boton-sec1">
+			<div class="col-md-4 boton-sec1" style="border-radius: 20px;">
 				<h3 class="REGISTRARME">REGISTRARME</h3>
 			</div>
 		</section>
 
 		<section class="col-md-6 col-xs-12 franja">
 			<div class="row">
-				<div class="col-md-4" style="background: #fe6068; border-radius: 20px;">
+				<div class="col-md-4 d-flex align-items-center justify-content-center" style="background: #fe6068; border-radius: 20px;">
 					<h1 >14 DÍAS GRATIS</h1>
 				</div>
 				<div class="col-md-8">	

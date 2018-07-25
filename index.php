@@ -75,22 +75,22 @@
 	</div>
 	<div class="row bloques">
 			<div class="col-md-4 col-xs-12 blo">
-				<div class="col-xs-12" style="background: white; box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);">
-					<img src="asset/cooperation@3x.png" style="padding-top: 40px;" class="img-fluid col-md-4 offset-md-4 col-xs-4" alt="">
+				<div class="col-xs-12 d-flex flex-column" style="background: white; box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);">
+					<img src="asset/cooperation@3x.png" style="padding-top: 40px;" class="img-fluid col-md-4 offset-md-4 col-xs-4 pt-5" alt="">
 					<h1 class="col-xs-12 text-center">Regístrate <br>y obten 14 dias <br> gratis de prueba.</h1>
 					<button class="col-md-8 offset-md-2 col-xs-10">REGISTRARME</button>
 				</div>
 			</div>
 			<div class="col-md-4 col-xs-12  blo">
-				<div class="col-xs-12" style="background: white; box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);">
-					<img src="asset/to-do@3x.png" style="padding-top: 40px;" class="img-fluid col-md-4 offset-md-4 col-xs-4" alt="">
+				<div class="col-xs-12 d-flex flex-column" style="background: white; box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);">
+					<img src="asset/to-do@3x.png" class="img-fluid col-md-4 offset-md-4 col-xs-4 pt-5" alt="">
 					<h1 class="col-xs-12 text-center">Gestiona la agenda de tus pacientes en todos tus consultorios.</h1>
 					<button class="col-md-8 offset-md-2 col-xs-10">REGISTRARME</button>
 				</div>
 			</div>
 			<div class="col-md-4 col-xs-12  blo">
-				<div class="col-xs-12" style="background: white; box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);">
-					<img src="asset/floder@3x.png" style="padding-top: 40px;" class="img-fluid col-md-3 offset-md-4 col-xs-4" alt="">
+				<div class="col-xs-12 d-flex flex-column" style="background: white; box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);">
+					<img src="asset/floder@3x.png" class="img-fluid col-md-3 offset-md-4 col-xs-4 pt-5" alt="">
 					<h1 class="col-xs-12 text-center">Guarda las fichas clinicas, recetas, examenes, imagenes y archivos facil y seguro.</h1>
 					<button class="col-md-8 offset-md-2 col-xs-10">REGISTRARME</button>
 				</div>
@@ -110,13 +110,13 @@
 			</div>
 			<div class="col-md-6">
 					<h2>Unete a más de 150 doctores satisfechos con DoctoPro.</h2>
-					<form action="" class="formulario row">
-							<input type="text" class="col-md-6 col-xs-12" placeholder="Nombre">
-							<input type="text" class="col-md-6 col-xs-12" placeholder="Apellido">
-							<input type="text" class="col-md-6 col-xs-12" placeholder="Teléfono">
-							<input type="text" class="col-md-6 col-xs-12" placeholder="Ciudad">
-							<input type="text" class=" col-md-12 col-xs-12" placeholder="Email">
-							<button class="col-md-7 offset-md-5">REGISTRARME</button>
+					<form action="" class="formulario row d-flex flew-wrap justify-content-center align-items-center">
+							<input type="text" class="col-md-5 mx-1 col-xs-12" placeholder="Nombre">
+							<input type="text" class="col-md-5 mx-1 col-xs-12" placeholder="Apellido">
+							<input type="text" class="col-md-5 mx-1 col-xs-12" placeholder="Teléfono">
+							<input type="text" class="col-md-5 mx-1 col-xs-12" placeholder="Ciudad">
+							<input type="text" class="col-md-10 mx-1 col-xs-12" placeholder="Email">
+							<button class="col-md-5 ">REGISTRARME</button>
 					</form>
 					
 			</div>

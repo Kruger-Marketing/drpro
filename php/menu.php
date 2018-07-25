@@ -23,7 +23,7 @@
         <a class="nav-link " href="#">Ingresar</a>
       </li>
       <li class="nav-item" style="background: #35d1cd; border-radius:20px;">
-        <a class="nav-link " href="#">Registrarse</a>
+        <a class="nav-link px-4 " href="#">Registrarse</a>
       </li>
     </ul>
   </div>
